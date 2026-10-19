@@ -1,0 +1,47 @@
+{
+  "name": "Signal suite",
+  "payloads": [
+    {
+      "id": "ps5-exporter",
+      "name": "ps5-exporter",
+      "filename": "ps5-exporter.elf",
+      "url": "https://github.com/Marice/ps5-exporter/releases/download/v0.3.1/ps5-exporter.elf",
+      "version": "v0.3.1",
+      "last_update": "2026-10-19",
+      "description": "The console's temperatures, power, fan, clocks, CPU load, frame rate and running game as Prometheus metrics on port 9100. ps5-homeassistant reads them.",
+      "category": "Signal suite",
+      "checksum": "ff0c36333ba44da20a05039f148b644225edfeeac80e7c12006f767681739862",
+      "author": "Marice",
+      "details_url": "https://raw.githubusercontent.com/Marice/ps5-exporter/main/README.md",
+      "source": "https://github.com/Marice/ps5-exporter"
+    },
+    {
+      "id": "ps5-homeassistant",
+      "name": "ps5-homeassistant",
+      "filename": "ps5-homeassistant.elf",
+      "url": "https://github.com/Marice/ps5-homeassistant/releases/download/v0.2.1/ps5-homeassistant.elf",
+      "version": "v0.2.1",
+      "last_update": "2026-10-19",
+      "description": "The PS5 as a device in Home Assistant over MQTT: its values from ps5-exporter, a notification on the TV, the light and beeper through ps5-signal, rest mode and power off.",
+      "category": "Signal suite",
+      "checksum": "08628bd8fd73281cf49fb7ad9954294db212517828d9984a8a5f9f7884441de1",
+      "author": "Marice",
+      "details_url": "https://raw.githubusercontent.com/Marice/ps5-homeassistant/main/README.md",
+      "source": "https://github.com/Marice/ps5-homeassistant"
+    },
+    {
+      "id": "ps5-signal",
+      "name": "ps5-signal",
+      "filename": "ps5-signal.elf",
+      "url": "https://github.com/Marice/ps5-signal/releases/download/v0.2.1/ps5-signal.elf",
+      "version": "v0.2.1",
+      "last_update": "2026-10-19",
+      "description": "Beeps and the console's light for you and for homebrew: a startup tune, colours, patterns, over a small HTTP API on the console.",
+      "category": "Signal suite",
+      "checksum": "823d0f602b010dd137104f8ccfb08334688b48a8299782c8346dc1ce00620786",
+      "author": "Marice",
+      "details_url": "https://raw.githubusercontent.com/Marice/ps5-signal/main/README.md",
+      "source": "https://github.com/Marice/ps5-signal"
+    }
+  ]
+}
