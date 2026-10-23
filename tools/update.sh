@@ -17,7 +17,7 @@ trap 'rm -rf "$work"' EXIT
 # repo | file | name | description (in suite order: the exporter first, the others read it)
 payloads=(
     "ps5-exporter|ps5-exporter.elf|ps5-exporter|The console's temperatures, power, fan, clocks, CPU load, frame rate and running game as Prometheus metrics on port 9100. ps5-homeassistant reads them."
-    "ps5-homeassistant|ps5-homeassistant.elf|ps5-homeassistant|The PS5 as a device in Home Assistant over MQTT: its values from ps5-exporter, a notification on the TV, the light and beeper through ps5-signal, rest mode and power off."
+    "ps5-homeassistant|ps5-homeassistant.elf|ps5-homeassistant|The PS5 as a device in Home Assistant over MQTT: its values from ps5-exporter, live events (trophies, games started and stopped, ShadowMountPlus copies), the status of your payloads, starting a game, a notification on the TV, the light and beeper through ps5-signal, rest mode and power off."
     "ps5-signal|ps5-signal.elf|ps5-signal|Beeps and the console's light for you and for homebrew: a startup tune, colours, patterns, over a small HTTP API on the console."
 )
 
