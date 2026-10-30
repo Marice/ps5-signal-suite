@@ -42,6 +42,20 @@
       "author": "Marice",
       "details_url": "https://raw.githubusercontent.com/Marice/ps5-signal/main/README.md",
       "source": "https://github.com/Marice/ps5-signal"
+    },
+    {
+      "id": "ps5-smbd",
+      "name": "ps5-smbd",
+      "filename": "ps5-smbd.elf",
+      "url": "https://github.com/Marice/ps5-smbd/releases/download/v0.1.0/ps5-smbd.elf",
+      "version": "v0.1.0",
+      "last_update": "2026-10-30",
+      "description": "The console's /data and /mnt as Windows shares (SMB2/3): \\\\<console name>\\data, read and write, login ps5 / ps5. Anyone on your network who knows that login can change or delete anything there.",
+      "category": "Network",
+      "checksum": "72cccf59d6a0d542b63ff63627808ce1fb950f78001e2badcd263fdf93d3cbc5",
+      "author": "Marice",
+      "details_url": "https://raw.githubusercontent.com/Marice/ps5-smbd/main/README.md",
+      "source": "https://github.com/Marice/ps5-smbd"
     }
   ]
 }
