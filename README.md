@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H5L629ZHNX)
+
 # Signal suite
 
 A payload repository for [Payload Manager](https://github.com/itsPLK/ps5-payload-manager) (pldmgr) with three PS5
